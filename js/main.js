@@ -10,7 +10,7 @@ buttonModals.forEach((item) => {
    });
 });
 
-modalWindow/addEventListener('click', (e) => {
+modalWindow.addEventListener('click', (e) => {
    const isModal = e.target.closest('.modal_inner');
 
    if (!isModal) {
